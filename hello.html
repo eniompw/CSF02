@@ -1,0 +1,9 @@
+<div id="output">Please enter username</div>
+<input id="input">
+<button onclick="hello()"> Submit </button>
+<script>
+  function hello(){
+    let name = document.getElementById('input').value
+    document.getElementById('output').innerHTML = "hello  " + name
+  }
+</script>
